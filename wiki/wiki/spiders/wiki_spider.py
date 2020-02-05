@@ -35,10 +35,12 @@ class EDUSpider(scrapy.Spider):
         psoup = BeautifulSoup(str(p),features="lxml")
 
         #count the number of outgoing links
+        outGoingLinksList = []
         outGoingLinks = 0
         for link in psoup.find_all('a'):
             url = str(link.get('href'))
             if re.search(r'\/wiki\/[0-9A-Za-z_-]+$',url):
+                outGoingLinksList.append(url)
                 outGoingLinks = outGoingLinks + 1
                 if url in incomingLinks:
                     incomingLinks[url] = incomingLinks[url] + 1
@@ -59,6 +61,7 @@ class EDUSpider(scrapy.Spider):
             'facts': facts,
             'website': website,
             'outGoingLinks': outGoingLinks,
+            'outGoingLinksList': outGoingLinksList,
             'incomingLinks': incomingLinks[short_url],
             'description' : psoup.get_text()
         }
