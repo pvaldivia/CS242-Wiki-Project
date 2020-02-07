@@ -3,6 +3,12 @@ import re
 from bs4 import BeautifulSoup
 
 
+import time
+start = time.time()
+end = time.time()
+count = -1
+avgper100 = -1
+
 incomingLinks = {}
 
 class EDUSpider(scrapy.Spider):
@@ -11,6 +17,22 @@ class EDUSpider(scrapy.Spider):
     start_urls = ['https://en.wikipedia.org/wiki/Marvel_Comics']
 
     def parse(self, response):
+
+        
+        # timecount
+        global count,start,end,avgper100
+        count += 1
+        if count % 100 == 0:
+            end = time.time()
+            if count!=0:
+                tc = end-start
+                avgper100 = (avgper100*(count/100-1)+tc)/(count/100)
+                with open("timecount.txt",'a') as f:
+                    print("number count: ",count,file=f)
+                    print("time count: ",tc,file=f)
+                    print("avg time per 100: ", avgper100,file=f)
+            start = end
+
         #Change response information to soup context
         soup = BeautifulSoup(response.body, 'html.parser')
 

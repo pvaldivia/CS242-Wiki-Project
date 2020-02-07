@@ -1,0 +1,1173 @@
+number count:  100
+time count:  30.089958667755127
+avg time per 100:  30.089958667755127
+number count:  200
+time count:  23.484267234802246
+avg time per 100:  26.787112951278687
+number count:  300
+time count:  21.964563846588135
+avg time per 100:  25.179596583048504
+number count:  400
+time count:  26.996824979782104
+avg time per 100:  25.633903682231903
+number count:  500
+time count:  22.119112730026245
+avg time per 100:  24.930945491790773
+number count:  600
+time count:  20.75594735145569
+avg time per 100:  24.235112468401592
+number count:  700
+time count:  19.469610929489136
+avg time per 100:  23.55432653427124
+number count:  800
+time count:  22.14379119873047
+avg time per 100:  23.378009617328644
+number count:  900
+time count:  20.086278200149536
+avg time per 100:  23.01226168208652
+number count:  1000
+time count:  19.287834882736206
+avg time per 100:  22.63981900215149
+number count:  1100
+time count:  16.553454875946045
+avg time per 100:  22.08651317249645
+number count:  1200
+time count:  22.90081214904785
+avg time per 100:  22.1543714205424
+number count:  1300
+time count:  15.930308818817139
+avg time per 100:  21.67559737425584
+number count:  1400
+time count:  19.289381980895996
+avg time per 100:  21.50515341758728
+number count:  1500
+time count:  18.375160694122314
+avg time per 100:  21.296487236022948
+number count:  1600
+time count:  16.699328422546387
+avg time per 100:  21.009164810180664
+number count:  1700
+time count:  15.152983903884888
+avg time per 100:  20.66468358039856
+number count:  1800
+time count:  22.56315851211548
+avg time per 100:  20.77015440993839
+number count:  1900
+time count:  19.761773109436035
+avg time per 100:  20.717081709911948
+number count:  2000
+time count:  18.175032138824463
+avg time per 100:  20.589979231357574
+number count:  2100
+time count:  16.525941371917725
+avg time per 100:  20.396453619003296
+number count:  2200
+time count:  14.36487102508545
+avg time per 100:  20.122290773825213
+number count:  2300
+time count:  15.977312564849854
+avg time per 100:  19.942074329956718
+number count:  2400
+time count:  14.658814668655396
+avg time per 100:  19.72193851073583
+number count:  2500
+time count:  14.622187852859497
+avg time per 100:  19.517948484420778
+number count:  2600
+time count:  21.810083389282227
+avg time per 100:  19.60610751922314
+number count:  2700
+time count:  14.123971700668335
+avg time per 100:  19.403065451869256
+number count:  2800
+time count:  15.665964365005493
+avg time per 100:  19.269597555909836
+number count:  2900
+time count:  19.849926471710205
+avg time per 100:  19.28960889783399
+number count:  3000
+time count:  17.17206358909607
+avg time per 100:  19.21902405420939
+number count:  3100
+time count:  14.503599882125854
+avg time per 100:  19.066913597045406
+number count:  3200
+time count:  21.87358546257019
+avg time per 100:  19.154622092843056
+number count:  3300
+time count:  11.932287216186523
+avg time per 100:  18.9357634602171
+number count:  3400
+time count:  16.25220823287964
+avg time per 100:  18.85683536529541
+number count:  3500
+time count:  16.499732732772827
+avg time per 100:  18.789489575794764
+number count:  3600
+time count:  19.238941431045532
+avg time per 100:  18.80197434955173
+number count:  3700
+time count:  23.021664142608643
+avg time per 100:  18.91602001963435
+number count:  3800
+time count:  15.687653064727783
+avg time per 100:  18.83106299450523
+number count:  3900
+time count:  21.564753532409668
+avg time per 100:  18.901157623682266
+number count:  4000
+time count:  21.824589014053345
+avg time per 100:  18.974243408441545
+number count:  4100
+time count:  17.17029309272766
+avg time per 100:  18.9302446202534
+number count:  4200
+time count:  16.822843074798584
+avg time per 100:  18.880068392980668
+number count:  4300
+time count:  15.452744483947754
+avg time per 100:  18.800363185793856
+number count:  4400
+time count:  19.27528977394104
+avg time per 100:  18.81115697188811
+number count:  4500
+time count:  15.177244901657104
+avg time per 100:  18.73040337032742
+number count:  4600
+time count:  15.227717399597168
+avg time per 100:  18.654258023137633
+number count:  4700
+time count:  15.533475875854492
+avg time per 100:  18.587858402982672
+number count:  4800
+time count:  16.753198385238647
+avg time per 100:  18.54963631927967
+number count:  4900
+time count:  16.895373106002808
+avg time per 100:  18.515875845539327
+number count:  5000
+time count:  17.39303231239319
+avg time per 100:  18.493418974876406
+number count:  5100
+time count:  11.25588870048523
+avg time per 100:  18.35150661655501
+number count:  5200
+time count:  18.986185789108276
+avg time per 100:  18.363711985257957
+number count:  5300
+time count:  14.439560413360596
+avg time per 100:  18.289671389561782
+number count:  5400
+time count:  14.810742378234863
+avg time per 100:  18.225246778240912
+number count:  5500
+time count:  13.813047409057617
+avg time per 100:  18.14502497152849
+number count:  5600
+time count:  15.976120710372925
+avg time per 100:  18.106294538293568
+number count:  5700
+time count:  17.991405487060547
+avg time per 100:  18.104278940903512
+number count:  5800
+time count:  14.305131673812866
+avg time per 100:  18.038776401815742
+number count:  5900
+time count:  14.131697177886963
+avg time per 100:  17.972554720054237
+number count:  6000
+time count:  16.675353527069092
+avg time per 100:  17.950934700171153
+number count:  6100
+time count:  12.519695043563843
+avg time per 100:  17.861897984489065
+number count:  6200
+time count:  14.758106231689453
+avg time per 100:  17.811836827185846
+number count:  6300
+time count:  18.68378520011902
+avg time per 100:  17.825677277549865
+number count:  6400
+time count:  15.026898384094238
+avg time per 100:  17.78194635733962
+number count:  6500
+time count:  12.86983036994934
+avg time per 100:  17.706375342149002
+number count:  6600
+time count:  13.795961856842041
+avg time per 100:  17.647126652977683
+number count:  6700
+time count:  13.648488283157349
+avg time per 100:  17.587445483278874
+number count:  6800
+time count:  13.268713474273682
+avg time per 100:  17.52393471844056
+number count:  6900
+time count:  15.645217895507812
+avg time per 100:  17.496706938398056
+number count:  7000
+time count:  16.31810998916626
+avg time per 100:  17.479869839123317
+number count:  7100
+time count:  15.666091203689575
+avg time per 100:  17.45432366115946
+number count:  7200
+time count:  16.080748796463013
+avg time per 100:  17.435246232483124
+number count:  7300
+time count:  15.833633422851562
+avg time per 100:  17.41330633098132
+number count:  7400
+time count:  14.5937180519104
+avg time per 100:  17.37520378666955
+number count:  7500
+time count:  14.025492906570435
+avg time per 100:  17.330540974934895
+number count:  7600
+time count:  17.155826091766357
+avg time per 100:  17.328242094893206
+number count:  7700
+time count:  16.525160312652588
+avg time per 100:  17.31781246135761
+number count:  7800
+time count:  16.075902223587036
+avg time per 100:  17.30189053523235
+number count:  7900
+time count:  14.797045946121216
+avg time per 100:  17.270183641699298
+number count:  8000
+time count:  14.599521160125732
+avg time per 100:  17.23680036067963
+number count:  8100
+time count:  16.62636971473694
+avg time per 100:  17.229264179865524
+number count:  8200
+time count:  14.374199390411377
+avg time per 100:  17.194446316579498
+number count:  8300
+time count:  14.634681940078735
+avg time per 100:  17.163605781922865
+number count:  8400
+time count:  12.454742431640625
+avg time per 100:  17.107547884895695
+number count:  8500
+time count:  13.296620607376099
+avg time per 100:  17.06271344633664
+number count:  8600
+time count:  13.865827560424805
+avg time per 100:  17.025540354639993
+number count:  8700
+time count:  16.00165891647339
+avg time per 100:  17.01377160247716
+number count:  8800
+time count:  12.415807723999023
+avg time per 100:  16.961522012949
+number count:  8900
+time count:  15.472153186798096
+avg time per 100:  16.944787531756294
+number count:  9000
+time count:  13.462635517120361
+avg time per 100:  16.906096953815894
+number count:  9100
+time count:  15.041762113571167
+avg time per 100:  16.88560975776925
+number count:  9200
+time count:  9.89381742477417
+avg time per 100:  16.8096120150193
+number count:  9300
+time count:  15.483196496963501
+avg time per 100:  16.795349482567087
+number count:  9400
+time count:  13.122843027114868
+avg time per 100:  16.756280264955894
+number count:  9500
+time count:  15.015424489974976
+avg time per 100:  16.737955467324515
+number count:  9600
+time count:  21.77704644203186
+avg time per 100:  16.79044599831105
+number count:  9700
+time count:  14.90068244934082
+avg time per 100:  16.770963899868057
+number count:  9800
+time count:  10.588614463806152
+avg time per 100:  16.707878701540896
+number count:  9900
+time count:  14.913105726242065
+avg time per 100:  16.68974968158838
+number count:  10000
+time count:  18.688748598098755
+avg time per 100:  16.709739670753486
+number count:  10100
+time count:  16.95399045944214
+avg time per 100:  16.712157995393966
+number count:  10200
+time count:  15.269702911376953
+avg time per 100:  16.698016278883994
+number count:  10300
+time count:  16.717697381973267
+avg time per 100:  16.698207357554764
+number count:  10400
+time count:  15.724335193634033
+avg time per 100:  16.68884320213245
+number count:  10500
+time count:  13.897910356521606
+avg time per 100:  16.66226288931711
+number count:  10600
+time count:  15.696751594543457
+avg time per 100:  16.653154292196604
+number count:  10700
+time count:  15.235054969787598
+avg time per 100:  16.639901027501192
+number count:  10800
+time count:  14.315359592437744
+avg time per 100:  16.61837749569505
+number count:  10900
+time count:  15.856389999389648
+avg time per 100:  16.61138678471977
+number count:  11000
+time count:  18.88040852546692
+avg time per 100:  16.632014255090198
+number count:  11100
+time count:  15.075345754623413
+avg time per 100:  16.61799021454545
+number count:  11200
+time count:  17.45792007446289
+avg time per 100:  16.625489588294712
+number count:  11300
+time count:  14.062326669692993
+avg time per 100:  16.60280673060797
+number count:  11400
+time count:  16.69121479988098
+avg time per 100:  16.603582239987556
+number count:  11500
+time count:  13.963564395904541
+avg time per 100:  16.580625563082485
+number count:  11600
+time count:  15.24819803237915
+avg time per 100:  16.569139118852284
+number count:  11700
+time count:  16.720454931259155
+avg time per 100:  16.570432416394222
+number count:  11800
+time count:  15.32400631904602
+avg time per 100:  16.559869483365848
+number count:  11900
+time count:  17.949827671051025
+avg time per 100:  16.571549804270763
+number count:  12000
+time count:  15.342339515686035
+avg time per 100:  16.561306385199224
+number count:  12100
+time count:  12.428115129470825
+avg time per 100:  16.52714777977998
+number count:  12200
+time count:  11.56107234954834
+avg time per 100:  16.486442243466605
+number count:  12300
+time count:  9.880402565002441
+avg time per 100:  16.432734603804295
+number count:  12400
+time count:  11.952654361724854
+avg time per 100:  16.396604924432687
+number count:  12500
+time count:  9.97415542602539
+avg time per 100:  16.34522532844543
+number count:  12600
+time count:  10.649527072906494
+avg time per 100:  16.30002137403639
+number count:  12700
+time count:  13.212743043899536
+avg time per 100:  16.275712095846337
+number count:  12800
+time count:  13.769415616989136
+avg time per 100:  16.256131654605266
+number count:  12900
+time count:  10.8883798122406
+avg time per 100:  16.21452117520709
+number count:  13000
+time count:  8.783248901367188
+avg time per 100:  16.157357542331397
+number count:  13100
+time count:  10.234690189361572
+avg time per 100:  16.112146341163687
+number count:  13200
+time count:  9.046167612075806
+avg time per 100:  16.058616199276656
+number count:  13300
+time count:  8.79945969581604
+avg time per 100:  16.004036075190488
+number count:  13400
+time count:  9.943401336669922
+avg time per 100:  15.95880745773884
+number count:  13500
+time count:  11.138599872589111
+avg time per 100:  15.923102216367361
+number count:  13600
+time count:  10.574788808822632
+avg time per 100:  15.883776382488357
+number count:  13700
+time count:  12.022236585617065
+avg time per 100:  15.855589960613383
+number count:  13800
+time count:  10.097490787506104
+avg time per 100:  15.813864604286518
+number count:  13900
+time count:  9.534494638442993
+avg time per 100:  15.768689280791241
+number count:  14000
+time count:  9.14487361907959
+avg time per 100:  15.721376311779016
+number count:  14100
+time count:  8.15530800819397
+avg time per 100:  15.667716252888342
+number count:  14200
+time count:  14.813832759857178
+avg time per 100:  15.66170298885291
+number count:  14300
+time count:  32.87491846084595
+avg time per 100:  15.782075125020695
+number count:  14400
+time count:  15.931380033493042
+avg time per 100:  15.783111964662863
+number count:  14500
+time count:  12.956131935119629
+avg time per 100:  15.763615550666014
+number count:  14600
+time count:  12.103089809417725
+avg time per 100:  15.738543456547875
+number count:  14700
+time count:  13.785122394561768
+avg time per 100:  15.725254877894908
+number count:  14800
+time count:  10.188929080963135
+avg time per 100:  15.687847271158882
+number count:  14900
+time count:  11.4816415309906
+avg time per 100:  15.659617702432922
+number count:  15000
+time count:  10.269521951675415
+avg time per 100:  15.623683730761204
+number count:  15100
+time count:  8.879300832748413
+avg time per 100:  15.579018943357147
+number count:  15200
+time count:  9.818326711654663
+avg time per 100:  15.541119652359104
+number count:  15300
+time count:  10.028173208236694
+avg time per 100:  15.505087322658957
+number count:  15400
+time count:  7.110008239746094
+avg time per 100:  15.450573822120562
+number count:  15500
+time count:  8.609184980392456
+avg time per 100:  15.406435829593283
+number count:  15600
+time count:  12.442800760269165
+avg time per 100:  15.387438168892487
+number count:  15700
+time count:  10.607604265213013
+avg time per 100:  15.356993366958223
+number count:  15800
+time count:  8.504401445388794
+avg time per 100:  15.313622532011582
+number count:  15900
+time count:  11.8253653049469
+avg time per 100:  15.291683807313062
+number count:  16000
+time count:  8.344676733016968
+avg time per 100:  15.248265013098711
+number count:  16100
+time count:  8.693560123443604
+avg time per 100:  15.207552560367933
+number count:  16200
+time count:  11.243738412857056
+avg time per 100:  15.183084571803052
+number count:  16300
+time count:  10.357845067977905
+avg time per 100:  15.153481875460566
+number count:  16400
+time count:  10.539647102355957
+avg time per 100:  15.125348736600172
+number count:  16500
+time count:  11.057419061660767
+avg time per 100:  15.100694617358116
+number count:  16600
+time count:  12.114975214004517
+avg time per 100:  15.08270835589213
+number count:  16700
+time count:  12.593790531158447
+avg time per 100:  15.067804656342826
+number count:  16800
+time count:  8.769511222839355
+avg time per 100:  15.030314814476734
+number count:  16900
+time count:  8.92460012435913
+avg time per 100:  14.994186325186098
+number count:  17000
+time count:  9.816929578781128
+avg time per 100:  14.963731873736657
+number count:  17100
+time count:  12.520505428314209
+avg time per 100:  14.949443999786817
+number count:  17200
+time count:  8.792155742645264
+avg time per 100:  14.913645812245298
+number count:  17300
+time count:  8.444924354553223
+avg time per 100:  14.876254358732627
+number count:  17400
+time count:  11.3768150806427
+avg time per 100:  14.856142638743604
+number count:  17500
+time count:  9.393328666687012
+avg time per 100:  14.82492655890328
+number count:  17600
+time count:  10.122528076171875
+avg time per 100:  14.798208385705943
+number count:  17700
+time count:  10.059089422225952
+avg time per 100:  14.77143370229645
+number count:  17800
+time count:  9.25544786453247
+avg time per 100:  14.740445017814631
+number count:  17900
+time count:  11.669676542282104
+avg time per 100:  14.723289886666405
+number count:  18000
+time count:  10.301443338394165
+avg time per 100:  14.698724072509338
+number count:  18100
+time count:  9.92258358001709
+avg time per 100:  14.67233655597623
+number count:  18200
+time count:  10.523380041122437
+avg time per 100:  14.649540091608902
+number count:  18300
+time count:  9.578408002853394
+avg time per 100:  14.621828987298763
+number count:  18400
+time count:  9.255714416503906
+avg time per 100:  14.592665321153138
+number count:  18500
+time count:  10.193105459213257
+avg time per 100:  14.568883916494004
+number count:  18600
+time count:  16.254528284072876
+avg time per 100:  14.577946520620772
+number count:  18700
+time count:  13.917872667312622
+avg time per 100:  14.57441671391859
+number count:  18800
+time count:  8.719646692276001
+avg time per 100:  14.543274320186448
+number count:  18900
+time count:  8.943187236785889
+avg time per 100:  14.513644229798086
+number count:  19000
+time count:  10.2679283618927
+avg time per 100:  14.491298356809109
+number count:  19100
+time count:  8.919399976730347
+avg time per 100:  14.462126113981473
+number count:  19200
+time count:  9.964337587356567
+avg time per 100:  14.438700132071967
+number count:  19300
+time count:  11.335313558578491
+avg time per 100:  14.422620408893245
+number count:  19400
+time count:  13.691372394561768
+avg time per 100:  14.418851089231742
+number count:  19500
+time count:  15.617464303970337
+avg time per 100:  14.424997823666299
+number count:  19600
+time count:  15.96992826461792
+avg time per 100:  14.432880121834419
+number count:  19700
+time count:  17.14840006828308
+avg time per 100:  14.446664487044819
+number count:  19800
+time count:  18.4339702129364
+avg time per 100:  14.466802394751342
+number count:  19900
+time count:  16.055840492248535
+avg time per 100:  14.474787510819167
+number count:  20000
+time count:  12.727799892425537
+avg time per 100:  14.466052572727198
+number count:  20100
+time count:  13.25166130065918
+avg time per 100:  14.46001082510497
+number count:  20200
+time count:  11.709674835205078
+avg time per 100:  14.446395300402495
+number count:  20300
+time count:  13.221175193786621
+avg time per 100:  14.44035973337483
+number count:  20400
+time count:  12.98582649230957
+avg time per 100:  14.433229668467648
+number count:  20500
+time count:  13.668245553970337
+avg time per 100:  14.429498038640832
+number count:  20600
+time count:  9.978306770324707
+avg time per 100:  14.407890314037356
+number count:  20700
+time count:  9.902509689331055
+avg time per 100:  14.386125190246505
+number count:  20800
+time count:  9.416870832443237
+avg time per 100:  14.362234544295527
+number count:  20900
+time count:  10.749744415283203
+avg time per 100:  14.344949902529917
+number count:  21000
+time count:  9.419354915618896
+avg time per 100:  14.321494688306531
+number count:  21100
+time count:  11.100713968276978
+avg time per 100:  14.306230324704496
+number count:  21200
+time count:  11.174107313156128
+avg time per 100:  14.291456159555683
+number count:  21300
+time count:  12.821676015853882
+avg time per 100:  14.284555783294172
+number count:  21400
+time count:  11.188722610473633
+avg time per 100:  14.270089273140805
+number count:  21500
+time count:  10.668128252029419
+avg time per 100:  14.253335966065869
+number count:  21600
+time count:  11.793954849243164
+avg time per 100:  14.241949942376875
+number count:  21700
+time count:  8.816414833068848
+avg time per 100:  14.216947476435363
+number count:  21800
+time count:  6.65519642829895
+avg time per 100:  14.182260545021894
+number count:  21900
+time count:  11.460599422454834
+avg time per 100:  14.16983286866314
+number count:  22000
+time count:  15.41866683959961
+avg time per 100:  14.17550938671285
+number count:  22100
+time count:  9.550435304641724
+avg time per 100:  14.154581449689903
+number count:  22200
+time count:  7.5061657428741455
+avg time per 100:  14.124633631190735
+number count:  22300
+time count:  9.81407356262207
+avg time per 100:  14.1053037654124
+number count:  22400
+time count:  9.91048812866211
+avg time per 100:  14.086576909891193
+number count:  22500
+time count:  8.64034366607666
+avg time per 100:  14.062371428807573
+number count:  22600
+time count:  9.861339807510376
+avg time per 100:  14.043782793315106
+number count:  22700
+time count:  7.8525390625
+avg time per 100:  14.016508591857772
+number count:  22800
+time count:  10.221893787384033
+avg time per 100:  13.99986554446973
+number count:  22900
+time count:  9.171431541442871
+avg time per 100:  13.97878067982769
+number count:  23000
+time count:  10.264541149139404
+avg time per 100:  13.96263181230296
+number count:  23100
+time count:  10.659545660018921
+avg time per 100:  13.948332738050647
+number count:  23200
+time count:  7.143540620803833
+avg time per 100:  13.919001737545273
+number count:  23300
+time count:  8.670803546905518
+avg time per 100:  13.896477281791453
+number count:  23400
+time count:  9.465322732925415
+avg time per 100:  13.877540723890316
+number count:  23500
+time count:  9.516778230667114
+avg time per 100:  13.858984287748942
+number count:  23600
+time count:  11.856282949447632
+avg time per 100:  13.850498265129021
+number count:  23700
+time count:  10.26753282546997
+avg time per 100:  13.83538026749333
+number count:  23800
+time count:  10.163455486297607
+avg time per 100:  13.819952012110154
+number count:  23900
+time count:  7.368592977523804
+avg time per 100:  13.792958878074227
+number count:  24000
+time count:  9.28404951095581
+avg time per 100:  13.774171755711233
+number count:  24100
+time count:  10.319096326828003
+avg time per 100:  13.759835343143253
+number count:  24200
+time count:  9.839245557785034
+avg time per 100:  13.743634558906237
+number count:  24300
+time count:  9.812772512435913
+avg time per 100:  13.727458171883725
+number count:  24400
+time count:  8.329849481582642
+avg time per 100:  13.705336824792326
+number count:  24500
+time count:  9.43513536453247
+avg time per 100:  13.68790743107698
+number count:  24600
+time count:  10.001404523849487
+avg time per 100:  13.672921646901258
+number count:  24700
+time count:  9.609672784805298
+avg time per 100:  13.656471246649858
+number count:  24800
+time count:  9.41281008720398
+avg time per 100:  13.639359709716608
+number count:  24900
+time count:  10.476972103118896
+avg time per 100:  13.626659357882883
+number count:  25000
+time count:  8.710598945617676
+avg time per 100:  13.606995116233822
+number count:  25100
+time count:  7.580947399139404
+avg time per 100:  13.582986957998386
+number count:  25200
+time count:  9.748964786529541
+avg time per 100:  13.567772584302082
+number count:  25300
+time count:  9.199764490127563
+avg time per 100:  13.550507730174909
+number count:  25400
+time count:  6.623960018157959
+avg time per 100:  13.523237857292953
+number count:  25500
+time count:  7.61520528793335
+avg time per 100:  13.500069102118994
+number count:  25600
+time count:  8.050463199615479
+avg time per 100:  13.478781579062339
+number count:  25700
+time count:  7.994614362716675
+avg time per 100:  13.457442407014302
+number count:  25800
+time count:  9.664362668991089
+avg time per 100:  13.442740547564599
+number count:  25900
+time count:  8.783820867538452
+avg time per 100:  13.424752440691911
+number count:  26000
+time count:  11.322339534759521
+avg time per 100:  13.416666237207556
+number count:  26100
+time count:  10.963013887405396
+avg time per 100:  13.407265270350077
+number count:  26200
+time count:  7.142891883850098
+avg time per 100:  13.383355448264199
+number count:  26300
+time count:  11.225996017456055
+avg time per 100:  13.375152560694586
+number count:  26400
+time count:  8.821197509765625
+avg time per 100:  13.35790273095622
+number count:  26500
+time count:  9.841921091079712
+avg time per 100:  13.344634875711401
+number count:  26600
+time count:  9.15476393699646
+avg time per 100:  13.328883481204954
+number count:  26700
+time count:  6.875087022781372
+avg time per 100:  13.304711958888761
+number count:  26800
+time count:  7.8802735805511475
+avg time per 100:  13.284471517178547
+number count:  26900
+time count:  8.733636856079102
+avg time per 100:  13.267553916207916
+number count:  27000
+time count:  9.339016675949097
+avg time per 100:  13.253003778281032
+number count:  27100
+time count:  8.034705400466919
+avg time per 100:  13.233748064709761
+number count:  27200
+time count:  8.750619411468506
+avg time per 100:  13.217265974072845
+number count:  27300
+time count:  8.577350378036499
+avg time per 100:  13.200269946248536
+number count:  27400
+time count:  8.451549768447876
+avg time per 100:  13.182938850709117
+number count:  27500
+time count:  6.6220221519470215
+avg time per 100:  13.159080971804528
+number count:  27600
+time count:  9.40384316444397
+avg time per 100:  13.145475037719887
+number count:  27700
+time count:  7.912831544876099
+avg time per 100:  13.12658462799843
+number count:  27800
+time count:  6.936421155929565
+avg time per 100:  13.104317852919046
+number count:  27900
+time count:  8.103826761245728
+avg time per 100:  13.086394945780432
+number count:  28000
+time count:  12.435436725616455
+avg time per 100:  13.084070094994132
+number count:  28100
+time count:  9.388312339782715
+avg time per 100:  13.0709179321642
+number count:  28200
+time count:  8.057952165603638
+avg time per 100:  13.053141457814693
+number count:  28300
+time count:  7.81908392906189
+avg time per 100:  13.034646554886239
+number count:  28400
+time count:  10.300443887710571
+avg time per 100:  13.025019080706043
+number count:  28500
+time count:  9.775636672973633
+avg time per 100:  13.013617738924525
+number count:  28600
+time count:  10.998857021331787
+avg time per 100:  13.006573121030844
+number count:  28700
+time count:  5.47234034538269
+avg time per 100:  12.980321438885728
+number count:  28800
+time count:  9.007623195648193
+avg time per 100:  12.966527347763375
+number count:  28900
+time count:  9.801369905471802
+avg time per 100:  12.955575245886934
+number count:  29000
+time count:  8.919302463531494
+avg time per 100:  12.94165706387881
+number count:  29100
+time count:  7.3516504764556885
+avg time per 100:  12.92244741924849
+number count:  29200
+time count:  9.582125902175903
+avg time per 100:  12.91100796199824
+number count:  29300
+time count:  8.460933685302734
+avg time per 100:  12.895819995183581
+number count:  29400
+time count:  8.995863437652588
+avg time per 100:  12.882554836824633
+number count:  29500
+time count:  8.002113103866577
+avg time per 100:  12.866010966543419
+number count:  29600
+time count:  8.447295427322388
+avg time per 100:  12.85108287350551
+number count:  29700
+time count:  9.897522926330566
+avg time per 100:  12.841138227218725
+number count:  29800
+time count:  8.815665245056152
+avg time per 100:  12.827629928620864
+number count:  29900
+time count:  7.165524959564209
+avg time per 100:  12.808693122704286
+number count:  30000
+time count:  8.989892482757568
+avg time per 100:  12.795963787237797
+number count:  30100
+time count:  9.405434608459473
+avg time per 100:  12.784699570697006
+number count:  30200
+time count:  5.6346595287323
+avg time per 100:  12.761023941418976
+number count:  30300
+time count:  8.561224699020386
+avg time per 100:  12.747163217846705
+number count:  30400
+time count:  14.774475336074829
+avg time per 100:  12.753832007709297
+number count:  30500
+time count:  18.37787628173828
+avg time per 100:  12.772271497132344
+number count:  30600
+time count:  17.02604579925537
+avg time per 100:  12.786172720341897
+number count:  30700
+time count:  22.172033071517944
+avg time per 100:  12.816745555362015
+number count:  30800
+time count:  15.842035293579102
+avg time per 100:  12.82656792464194
+number count:  30900
+time count:  17.549805164337158
+avg time per 100:  12.841853482051958
+number count:  31000
+time count:  17.163576364517212
+avg time per 100:  12.855794523608298
+number count:  31100
+time count:  16.633450746536255
+avg time per 100:  12.867941328183628
+number count:  31200
+time count:  11.772341251373291
+avg time per 100:  12.864429789475903
+number count:  31300
+time count:  14.314846515655518
+avg time per 100:  12.869063708728874
+number count:  31400
+time count:  13.915302038192749
+avg time per 100:  12.872395677930989
+number count:  31500
+time count:  15.462637186050415
+avg time per 100:  12.880618666845653
+number count:  31600
+time count:  17.0359890460968
+avg time per 100:  12.893768573109107
+number count:  31700
+time count:  13.297727108001709
+avg time per 100:  12.895042890253878
+number count:  31800
+time count:  13.482303380966187
+avg time per 100:  12.896889621356749
+number count:  31900
+time count:  17.864211082458496
+avg time per 100:  12.912461161987162
+number count:  32000
+time count:  15.240437269210815
+avg time per 100:  12.919736087322235
+number count:  32100
+time count:  12.912611961364746
+avg time per 100:  12.919713893783427
+number count:  32200
+time count:  12.655343770980835
+avg time per 100:  12.918892868557332
+number count:  32300
+time count:  14.787436723709106
+avg time per 100:  12.924677834053158
+number count:  32400
+time count:  16.2469322681427
+avg time per 100:  12.93493170576331
+number count:  32500
+time count:  18.986070156097412
+avg time per 100:  12.9535505933028
+number count:  32600
+time count:  25.35028839111328
+avg time per 100:  12.991577396363569
+number count:  32700
+time count:  16.302460432052612
+avg time per 100:  13.00170242093754
+number count:  32800
+time count:  16.837318897247314
+avg time per 100:  13.013396373609217
+number count:  32900
+time count:  17.46691656112671
+avg time per 100:  13.026932909133587
+number count:  33000
+time count:  21.18751811981201
+avg time per 100:  13.051661955226551
+number count:  33100
+time count:  24.901132106781006
+avg time per 100:  13.087460958705568
+number count:  33200
+time count:  20.596123933792114
+avg time per 100:  13.110077413449805
+number count:  33300
+time count:  21.800477743148804
+avg time per 100:  13.136174711737189
+number count:  33400
+time count:  21.092421054840088
+avg time per 100:  13.159995808572827
+number count:  33500
+time count:  18.443678855895996
+avg time per 100:  13.175767996773791
+number count:  33600
+time count:  18.693151473999023
+avg time per 100:  13.192188780932199
+number count:  33700
+time count:  16.615216732025146
+avg time per 100:  13.202346133902802
+number count:  33800
+time count:  15.792290449142456
+avg time per 100:  13.21000869104848
+number count:  33900
+time count:  14.812374591827393
+avg time per 100:  13.214735434118625
+number count:  34000
+time count:  15.104519128799438
+avg time per 100:  13.220293621455921
+number count:  34100
+time count:  12.69402813911438
+avg time per 100:  13.218750320921195
+number count:  34200
+time count:  13.414612054824829
+avg time per 100:  13.21932301604957
+number count:  34300
+time count:  17.216941595077515
+avg time per 100:  13.230977880711459
+number count:  34400
+time count:  15.507126331329346
+avg time per 100:  13.23759459132372
+number count:  34500
+time count:  12.745363712310791
+avg time per 100:  13.236167835152667
+number count:  34600
+time count:  15.632671117782593
+avg time per 100:  13.243094145218071
+number count:  34700
+time count:  16.972595691680908
+avg time per 100:  13.253841988291452
+number count:  34800
+time count:  14.922948598861694
+avg time per 100:  13.25863827165516
+number count:  34900
+time count:  13.90443730354309
+avg time per 100:  13.260488698680627
+number count:  35000
+time count:  10.342555522918701
+avg time per 100:  13.252151746749878
+number count:  35100
+time count:  13.908791780471802
+avg time per 100:  13.254022516076722
+number count:  35200
+time count:  12.035286664962769
+avg time per 100:  13.250560198317874
+number count:  35300
+time count:  14.317941904067993
+avg time per 100:  13.253583942526799
+number count:  35400
+time count:  14.800414323806763
+avg time per 100:  13.257953519875047
+number count:  35500
+time count:  17.756805896759033
+avg time per 100:  13.270626343471903
+number count:  35600
+time count:  17.124518394470215
+avg time per 100:  13.281451882940999
+number count:  35700
+time count:  14.778060674667358
+avg time per 100:  13.285644064430429
+number count:  35800
+time count:  13.432966947555542
+avg time per 100:  13.28605558086374
+number count:  35900
+time count:  14.982979774475098
+avg time per 100:  13.290782389202489
+number count:  36000
+time count:  14.342907190322876
+avg time per 100:  13.29370495809449
+number count:  36100
+time count:  16.713943243026733
+avg time per 100:  13.303179302374081
+number count:  36200
+time count:  15.202607154846191
+avg time per 100:  13.30842634064058
+number count:  36300
+time count:  14.33963918685913
+avg time per 100:  13.311267147379473
+number count:  36400
+time count:  13.65038776397705
+avg time per 100:  13.31219879742507
+number count:  36500
+time count:  15.342084884643555
+avg time per 100:  13.317760129170875
+number count:  36600
+time count:  14.185630321502686
+avg time per 100:  13.320131359204568
+number count:  36700
+time count:  14.906824588775635
+avg time per 100:  13.32445477399904
+number count:  36800
+time count:  15.007697105407715
+avg time per 100:  13.32902880207352
+number count:  36900
+time count:  11.204330444335938
+avg time per 100:  13.32327081194415
+number count:  37000
+time count:  14.415403604507446
+avg time per 100:  13.326222522194321
+number count:  37100
+time count:  14.361966848373413
+avg time per 100:  13.329014285876745
+number count:  37200
+time count:  15.44823408126831
+avg time per 100:  13.334711113283712
+number count:  37300
+time count:  14.284111499786377
+avg time per 100:  13.337256422630903
+number count:  37400
+time count:  17.482033491134644
+avg time per 100:  13.348338714257919
+number count:  37500
+time count:  15.336014747619629
+avg time per 100:  13.353639183680217
+number count:  37600
+time count:  14.381945371627808
+avg time per 100:  13.356374040563056
+number count:  37700
+time count:  15.56599235534668
+avg time per 100:  13.362235097100944
+number count:  37800
+time count:  14.937427520751953
+avg time per 100:  13.366402272824887
+number count:  37900
+time count:  14.570184230804443
+avg time per 100:  13.369578478518765
+number count:  38000
+time count:  15.19083857536316
+avg time per 100:  13.374371268247303
+number count:  38100
+time count:  17.16643977165222
+avg time per 100:  13.384324203951778
+number count:  38200
+time count:  13.589198589324951
+avg time per 100:  13.384860524332336
+number count:  38300
+time count:  13.91089153289795
+avg time per 100:  13.386233973440863
+number count:  38400
+time count:  11.782451391220093
+avg time per 100:  13.382057456299663
+number count:  38500
+time count:  14.780391454696655
+avg time per 100:  13.385689492659136
+number count:  38600
+time count:  15.164626359939575
+avg time per 100:  13.390298137393023
+number count:  38700
+time count:  17.013356924057007
+avg time per 100:  13.39966004640249
+number count:  38800
+time count:  13.438051223754883
+avg time per 100:  13.399758992735872
+number count:  38900
+time count:  12.080846548080444
+avg time per 100:  13.396368472312593
+number count:  39000
+time count:  15.076396226882935
+avg time per 100:  13.400676235785852
+number count:  39100
+time count:  15.22504472732544
+avg time per 100:  13.405342139856284
