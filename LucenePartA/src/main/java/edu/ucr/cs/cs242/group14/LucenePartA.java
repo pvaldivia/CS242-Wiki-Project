@@ -53,10 +53,14 @@ public class LucenePartA {
 			for(String line; (line = bufferedReader.readLine()) != null; ) {
 				JSONObject json = (JSONObject) parser.parse(line);
 				Document doc = new Document();
-				
-				//adding data to documents. Use TextField to store and index. use StoredField to just store.
+
 				doc.add(new Field("title", json.get("title").toString(), TextField.TYPE_STORED));
-				doc.add(new Field("lastEdit", json.get("lastEdit").toString(), TextField.TYPE_STORED));
+				if (json.get("lastEdit") != null) {
+					doc.add(new Field("lastEdit", json.get("lastEdit").toString(), TextField.TYPE_STORED));
+				}
+				else {
+					doc.add(new Field("lastEdit", "null", TextField.TYPE_STORED));
+				}
 				doc.add(new Field("url", json.get("url").toString(), StringField.TYPE_STORED));
 				doc.add(new Field("facts", json.get("facts").toString(), TextField.TYPE_STORED));
 				doc.add(new Field("outGoingLinks", json.get("outGoingLinks").toString(), StoredField.TYPE));
@@ -79,13 +83,13 @@ public class LucenePartA {
 			bufferedReader.close();
 			System.out.println("file " + fileNumber);
 			fileNumber += 1;
-			file = new File(dataPath + "/wiki_" + fileNumber + ".txt");
+			file = new File(dataPath + "/wiki_" + fileNumber + ".json");
 		}
 
 		indexWriter.close();
 		
 		long endTime = System.currentTimeMillis();
-		System.out.println("Time to build index with " + fileNumber + " files: " + (endTime - startTime) + " ms");
+		System.out.println("Time to build index with " + (fileNumber - 1) + " files: " + (endTime - startTime) + " ms");
 	}
 	
 	public static ScoreDoc[] searchIndex(String indexPath, String userQuery, int numHits) throws IOException, ParseException {
