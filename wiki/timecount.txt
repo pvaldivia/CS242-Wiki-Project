@@ -184,3 +184,15 @@ avg time per 100:  20.00868580124595
 number count:  5600
 time count:  15.766715288162231
 avg time per 100:  19.932936327798025
+number count:  5700
+time count:  16.983635187149048
+avg time per 100:  19.88119420252348
+number count:  5800
+time count:  19.67552399635315
+avg time per 100:  19.877648164486065
+number count:  5900
+time count:  15.347658395767212
+avg time per 100:  19.800868676880658
+number count:  6000
+time count:  7309.223675727844
+avg time per 100:  141.29124879439672

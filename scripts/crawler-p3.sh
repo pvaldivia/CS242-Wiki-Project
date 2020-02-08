@@ -18,4 +18,3 @@ sleep 5
 cd ../wiki
 scrapy crawl Wiki -o wiki.jl
 # Press CTRL+C to stop crawling. Will take ~20 seconds
-
