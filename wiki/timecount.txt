@@ -1,0 +1,84 @@
+number count:  100
+time count:  34.800018072128296
+avg time per 100:  34.800018072128296
+number count:  100
+time count:  34.826491355895996
+avg time per 100:  34.826491355895996
+number count:  100
+time count:  36.969260454177856
+avg time per 100:  36.969260454177856
+number count:  100
+time count:  37.703510761260986
+avg time per 100:  37.703510761260986
+number count:  200
+time count:  25.491810083389282
+avg time per 100:  31.597660422325134
+number count:  300
+time count:  22.446048974990845
+avg time per 100:  28.547123273213703
+number count:  400
+time count:  24.681257247924805
+avg time per 100:  27.58065676689148
+number count:  500
+time count:  20.10791015625
+avg time per 100:  26.086107444763183
+number count:  600
+time count:  18.53762197494507
+avg time per 100:  24.82802653312683
+number count:  700
+time count:  22.815787076950073
+avg time per 100:  24.54056375367301
+number count:  800
+time count:  21.46806263923645
+avg time per 100:  24.15650111436844
+number count:  900
+time count:  21.178455352783203
+avg time per 100:  23.825607140858967
+number count:  1000
+time count:  21.634520053863525
+avg time per 100:  23.606498432159423
+number count:  1100
+time count:  23.046632289886475
+avg time per 100:  23.55560151013461
+number count:  1200
+time count:  17.158650159835815
+avg time per 100:  23.022522230943043
+number count:  1300
+time count:  16.70083785057068
+avg time per 100:  22.536238817068245
+number count:  1400
+time count:  17.937754154205322
+avg time per 100:  22.207775626863754
+number count:  1500
+time count:  18.203468799591064
+avg time per 100:  21.940821838378906
+number count:  1600
+time count:  22.026145219802856
+avg time per 100:  21.946154549717903
+number count:  1700
+time count:  21.055874586105347
+avg time per 100:  21.893785140093634
+number count:  1800
+time count:  16.557434797286987
+avg time per 100:  21.59732123215993
+number count:  1900
+time count:  22.208921194076538
+avg time per 100:  21.629510703839752
+number count:  2000
+time count:  20.020287036895752
+avg time per 100:  21.549049520492552
+number count:  2100
+time count:  18.53623342514038
+avg time per 100:  21.405582087380544
+number count:  2200
+time count:  16.772705078125
+avg time per 100:  21.194996768778022
+number count:  2300
+time count:  16.47529888153076
+avg time per 100:  20.98979251281075
+number count:  2400
+time count:  19.482433319091797
+avg time per 100:  20.926985879739128
+number count:  2500
+time count:  20.947423458099365
+avg time per 100:  20.927803382873535
