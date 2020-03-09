@@ -12,4 +12,4 @@ mvn package
 echo ""
 echo "Building Lucene Index"
 sleep 4
-mvn exec:java -Dexec.mainClass="edu.ucr.cs.cs242.group14.LucenePartA" -Dexec.args="./sample_index ./sample_data \"marvel villans\" 1"
+mvn exec:java -Dexec.mainClass="edu.ucr.cs.cs242.group14.LucenePartA" -Dexec.args="../sample_index ../sample_data \"marvel villans\" 1"
