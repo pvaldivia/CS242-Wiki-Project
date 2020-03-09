@@ -1,1 +1,3 @@
 *.jl
+data*
+index*
