@@ -1,6 +1,5 @@
 import java.io.IOException;
-import java.util.HashMap;
-import java.util.StringTokenizer;
+import java.util.*;
 
 import org.apache.hadoop.io.MapWritable;
 import org.json.simple.JSONObject;
@@ -23,27 +22,27 @@ public class InvertedIndex {
     public static class TokenizerMapper
             extends Mapper<Object, Text, Text, Text> {
 
-        private final static IntWritable one = new IntWritable(1);
+        private final static Text title = new Text();
         private Text word = new Text();
 
         public void map(Object key, Text value, Context context
         ) throws IOException, InterruptedException {
-            String title;
-            String url;
+            String sw[] = {"i", "me", "my", "myself", "we", "our", "ours", "ourselves", "you", "you're", "you've", "you'll", "you'd", "your", "yours", "yourself", "yourselves", "he", "him", "his", "himself", "she", "she's", "her", "hers", "herself", "it", "it's", "its", "itself", "they", "them", "their", "theirs", "themselves", "what", "which", "who", "whom", "this", "that", "that'll", "these", "those", "am", "is", "are", "was", "were", "be", "been", "being", "have", "has", "had", "having", "do", "does", "did", "doing", "a", "an", "the", "and", "but", "if", "or", "because", "as", "until", "while", "of", "at", "by", "for", "with", "about", "against", "between", "into", "through", "during", "before", "after", "above", "below", "to", "from", "up", "down", "in", "out", "on", "off", "over", "under", "again", "further", "then", "once", "here", "there", "when", "where", "why", "how", "all", "any", "both", "each", "few", "more", "most", "other", "some", "such", "no", "nor", "not", "only", "own", "same", "so", "than", "too", "very", "s", "t", "can", "will", "just", "don", "don't", "should", "should've", "now", "d", "ll", "m", "o", "re", "ve", "y", "ain", "aren", "aren't", "couldn", "couldn't", "didn", "didn't", "doesn", "doesn't", "hadn", "hadn't", "hasn", "hasn't", "haven", "haven't", "isn", "isn't", "ma", "mightn", "mightn't", "mustn", "mustn't", "needn", "needn't", "shan", "shan't", "shouldn", "shouldn't", "wasn", "wasn't", "weren", "weren't", "won", "won't", "wouldn", "wouldn't"};
+            HashSet<String> stopwords = new HashSet<String>(Arrays.asList(sw));
             String description;
             JSONParser jsonParser = new JSONParser();
             try { // Extract title and description from wiki page as strings
                 JSONObject page = (JSONObject) jsonParser.parse(value.toString());
                 // Remove all non alpha characters and update string
-                title = page.get("title").toString().replaceAll("[^a-zA-Z ]", "").toLowerCase();
-                url = page.get("url").toString();
+                title.set(page.get("title").toString().replaceAll("[^a-zA-Z ]", "").toLowerCase());
+//                url.set(page.get("url").toString());
                 description = page.get("description").toString().replaceAll("[^a-zA-Z ]", "").toLowerCase();
                 StringTokenizer itr = new StringTokenizer(description);
                 // We don't have an ID, so consider the url as the ID
                 while (itr.hasMoreTokens()) {
                     word.set(itr.nextToken());
-                    if(word.toString() != " " && !word.toString().isEmpty()){
-                        context.write(word, new Text(url));
+                    if(word.toString() != " " && !word.toString().isEmpty() && !stopwords.contains(word.toString())){
+                        context.write(word, title);
                     }
                 }
             } catch (ParseException e) {
@@ -62,14 +61,13 @@ public class InvertedIndex {
             String id;
             for (Text url : values) {
                 id = url.toString();
-                // First occurrence. Initialize count to 1
-                if(docIdx.containsKey(id)) {
+                if(docIdx.containsKey(id)) { // Increment count by 1
                     docIdx.put(id, docIdx.get(id) + 1);
-                } else { // Increment count by 1
-//                    System.out.println(id);
+                } else { // First occurrence. Initialize count to 1
                     docIdx.put(id, 1);
                 }
             }
+            context.write(key, new Text(docIdx.toString()));
 
 //            System.out.println(docIdx.toString());
 
@@ -88,7 +86,7 @@ public class InvertedIndex {
 ////                System.out.println(word);
 ////                System.out.println(docIdx.get(word));
 //            }
-            context.write(key, new Text(docIdx.toString()));
+//            context.write(key, new Text(docIdx.toString()));
         }
     }
 
