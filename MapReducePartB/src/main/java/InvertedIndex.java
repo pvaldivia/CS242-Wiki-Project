@@ -1,3 +1,5 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
@@ -41,7 +43,7 @@ public class InvertedIndex {
                 // We don't have an ID, so consider the url as the ID
                 while (itr.hasMoreTokens()) {
                     word.set(itr.nextToken());
-                    if(word.toString() != " " && !word.toString().isEmpty() && !stopwords.contains(word.toString())){
+                    if(!word.toString().equals(" ") && !word.toString().isEmpty() && !stopwords.contains(word.toString())){
                         context.write(word, title);
                     }
                 }
@@ -58,35 +60,33 @@ public class InvertedIndex {
                            Context context
         ) throws IOException, InterruptedException {
             HashMap<String, Integer> docIdx = new HashMap();
-            String id;
-            for (Text url : values) {
-                id = url.toString();
-                if(docIdx.containsKey(id)) { // Increment count by 1
-                    docIdx.put(id, docIdx.get(id) + 1);
-                } else { // First occurrence. Initialize count to 1
-                    docIdx.put(id, 1);
+            String id = "";
+            String finalOutput = "";
+            for (Text title : values) {
+                id = title.toString();
+                if(!id.startsWith("{\"" + key + "\":")){ // Deal with bugged output
+                    if (docIdx.containsKey(id)) { // Increment count by 1
+                        docIdx.put(id, docIdx.get(id) + 1);
+                    } else { // First occurrence. Initialize count to 1
+                        docIdx.put(id, 1);
+                    }
                 }
             }
-            context.write(key, new Text(docIdx.toString()));
+            StringBuilder jsonOutput = new StringBuilder();
+            jsonOutput.append("{\"" + key + "\":{");
+            for (String title : docIdx.keySet()) {
+                jsonOutput.append("\"" + title + "\":\"" + docIdx.get(title) + "\",");
+            }
+            finalOutput = jsonOutput.substring(0, jsonOutput.length() - 1); // Remove last comma
+            finalOutput += "}}";
+            if(!finalOutput.equals("{\"" + key + "\":}}")) {
+                BufferedWriter writer = new BufferedWriter(new FileWriter("./index1GB.json", true));
+                writer.write(finalOutput);
+                writer.newLine();   //Add new line
+                writer.close();
+            }
 
-//            System.out.println(docIdx.toString());
-
-//            StringBuilder docValueList = new StringBuilder();
-//            for(String docID : docIdx.keySet()){
-////                docValueList.append(docID);
-////                if(docID != " " && docID != "") {
-//                docValueList.append(docID + ":" + docIdx.get(docID) + ", ");
-////                }
-//            }
-
-//            System.out.println(docValueList.toString());
-//            String result;
-//            for(String doc : docIdx.keySet()) {
-//                result = result + doc + " : " + docIdx.get(doc);
-////                System.out.println(word);
-////                System.out.println(docIdx.get(word));
-//            }
-//            context.write(key, new Text(docIdx.toString()));
+            context.write(key, new Text(finalOutput));
         }
     }
 
