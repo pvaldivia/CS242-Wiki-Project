@@ -1,5 +1,3 @@
-import java.io.BufferedWriter;
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.*;
 
@@ -35,16 +33,20 @@ public class InvertedIndex {
             JSONParser jsonParser = new JSONParser();
             try { // Extract title and description from wiki page as strings
                 JSONObject page = (JSONObject) jsonParser.parse(value.toString());
+//                System.out.println(page);
                 // Remove all non alpha characters and update string
-                title.set(page.get("title").toString().replaceAll("[^a-zA-Z ]", "").toLowerCase());
+                title.set(page.get("url").toString());//.replaceAll("[^a-zA-Z ]", "").toLowerCase());
+//                System.out.println(title);
 //                url.set(page.get("url").toString());
                 description = page.get("description").toString().replaceAll("[^a-zA-Z ]", "").toLowerCase();
                 StringTokenizer itr = new StringTokenizer(description);
                 // We don't have an ID, so consider the url as the ID
                 while (itr.hasMoreTokens()) {
                     word.set(itr.nextToken());
-                    if(!word.toString().equals(" ") && !word.toString().isEmpty() && !stopwords.contains(word.toString())){
+                    if(word.toString() != " " && !word.toString().isEmpty() && !stopwords.contains(word.toString())){
                         context.write(word, title);
+//                        System.out.println(word);
+//                        System.out.println(title);
                     }
                 }
             } catch (ParseException e) {
@@ -60,33 +62,21 @@ public class InvertedIndex {
                            Context context
         ) throws IOException, InterruptedException {
             HashMap<String, Integer> docIdx = new HashMap();
-            String id = "";
-            String finalOutput = "";
-            for (Text title : values) {
-                id = title.toString();
-                if(!id.startsWith("{\"" + key + "\":")){ // Deal with bugged output
-                    if (docIdx.containsKey(id)) { // Increment count by 1
-                        docIdx.put(id, docIdx.get(id) + 1);
-                    } else { // First occurrence. Initialize count to 1
-                        docIdx.put(id, 1);
-                    }
+            String id;
+//            System.out.println(key);
+            for (Text url : values) {
+//                System.out.println(url);
+                id = url.toString();
+//                System.out.println(id);
+                if(docIdx.containsKey(id)) { // Increment count by 1
+                    docIdx.put(id, docIdx.get(id) + 1);
+                } else { // First occurrence. Initialize count to 1
+                    docIdx.put(id, 1);
                 }
+//                System.out.println(docIdx.toString());
             }
-            StringBuilder jsonOutput = new StringBuilder();
-            jsonOutput.append("{\"" + key + "\":{");
-            for (String title : docIdx.keySet()) {
-                jsonOutput.append("\"" + title + "\":\"" + docIdx.get(title) + "\",");
-            }
-            finalOutput = jsonOutput.substring(0, jsonOutput.length() - 1); // Remove last comma
-            finalOutput += "}}";
-            if(!finalOutput.equals("{\"" + key + "\":}}")) {
-                BufferedWriter writer = new BufferedWriter(new FileWriter("./index1GB.json", true));
-                writer.write(finalOutput);
-                writer.newLine();   //Add new line
-                writer.close();
-            }
+            context.write(key, new Text(docIdx.toString()));
 
-            context.write(key, new Text(finalOutput));
         }
     }
 
@@ -95,7 +85,7 @@ public class InvertedIndex {
         Job buildIndexJob = Job.getInstance(conf, "Inverted Index");
         buildIndexJob.setJarByClass(InvertedIndex.class);
         buildIndexJob.setMapperClass(TokenizerMapper.class);
-        buildIndexJob.setCombinerClass(IntSumReducer.class);
+//        buildIndexJob.setCombinerClass(IntSumReducer.class);
         buildIndexJob.setReducerClass(IntSumReducer.class);
 
         buildIndexJob.setOutputKeyClass(Text.class);
@@ -106,3 +96,4 @@ public class InvertedIndex {
         System.exit(buildIndexJob.waitForCompletion(true) ? 0 : 1);
     }
 }
+
